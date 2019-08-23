@@ -1,0 +1,43 @@
+
+-- Example data categoria
+INSERT INTO `categoria` (`id_categoria`,`imagem_categoria`,`nome_categoria`) VALUES
+(NULL,'','Sagittis Tempor Sociis'),
+(NULL,'','Rutrum Erat Vel'),
+(NULL,'','Dictumst Consectetur Adipiscing'),
+(NULL,'','Habitasse Facilisis Hendrerit'),
+(NULL,'','A Volutpat Tellus'),
+(NULL,'','Ut Et Leo'),
+(NULL,'','Himenaeos Phasellus Ligula');
+
+
+-- Example data entrega
+INSERT INTO `entrega` (`id_entrega`,`tempo_entrega`) VALUES
+(NULL,'Accumsan Nisi Habitant'),
+(NULL,'Aliquam Metus Neque'),
+(NULL,'Vestibulum Nibh Consequat'),
+(NULL,'Quis Nibh Adipiscing'),
+(NULL,'Bibendum Dictumst Ornare'),
+(NULL,'Feugiat Himenaeos Ipsum'),
+(NULL,'Class Consequat Litora'),
+(NULL,'Tincidunt Placerat Eros');
+
+
+-- Example data marca
+INSERT INTO `marca` (`id_marca`,`imagem_marca`,`nome_marca`) VALUES
+(NULL,'','In Nulla Mi'),
+(NULL,'','Metus Fermentum Tempus'),
+(NULL,'','Montes Maecenas Tincidunt'),
+(NULL,'','Conubia Eget A'),
+(NULL,'','Congue Netus Libero'),
+(NULL,'','Sit Purus Urna');
+
+
+-- Example data produto
+INSERT INTO `produto` (`id_produto`,`categoria_produto`,`marca_produto`,`imagem_produto`,`produto_produto`,`descricao_produto`,`valor_produto`,`tempoi_de_entrega`) VALUES
+(NULL,'Tempus Est Urna','Volutpat Semper Sem','','Rutrum Vel Diam','Nascetur Id Morbi Tincidunt Aptent Interdum Cum Ornare In Lacinia Cras Cursus Volutpat Nostra Platea Molestie Ac Vehicula Nibh Class Netus Non Congue Pretium Maecenas Conubia Justo Montes Mauris Adipiscing Natoque Curae Proin Dictum Aliquet Nec','Odio Nam Vitae','Cubilia Varius Mollis'),
+(NULL,'Nostra Blandit Curae','Potenti Nibh Massa','','Sapien Eleifend Nam','Erat Lorem Accumsan In Eros Risus Id Sociis Posuere Tempor Pretium Odio Aliquam Interdum Lacus Vivamus Vulputate Suscipit Nascetur Eget Laoreet Tincidunt Himenaeos Aenean Auctor Vitae Sit Diam Nec Dolor Gravida Quisque Euismod Ad Commodo Senectus','Neque Nascetur Orci','Tempor Sem Massa'),
+(NULL,'Sociis Mattis Tortor','Adipiscing Gravida Hendrerit','','Varius Consectetur Aptent','Neque Tellus Ultricies Fames Eleifend Augue Tempus Duis Natoque Magna Rhoncus Venenatis Taciti Sodales Vitae Aenean Metus Gravida Magnis Aliquam Auctor Dapibus Cubilia Nam Platea Condimentum Sociosqu Faucibus Himenaeos Habitasse Luctus Sagittis Curae Fermentum Est Morbi','Mi Ullamcorper Tellus','Nullam Facilisi Venenatis'),
+(NULL,'Urna Aliquet Venenatis','Bibendum Venenatis Suscipit','','Lorem Donec Sollicitudin','Eget Ipsum Pharetra Accumsan Interdum Volutpat Arcu Hendrerit Gravida Per Senectus Massa Convallis Mi Ac Nulla Amet Egestas Sed Sem Aptent Congue Dictumst Tempor Nam Feugiat Nisi Fringilla Commodo Sollicitudin Consectetur Maecenas Morbi Facilisi Habitant Proin','Quis Quisque Magnis','Congue Donec Magnis'),
+(NULL,'Conubia Auctor Sapien','Torquent Risus Mollis','','Turpis Ligula Netus','Hac Ultricies Leo Magnis Bibendum Conubia Quam Egestas Nibh Nunc Tincidunt Ad Luctus Sit Turpis Id Ante Metus Tempus Parturient Habitasse Semper Tristique Nostra Lacus Facilisi Morbi Est At Arcu Nam Himenaeos Curae Faucibus Quis Ornare','Quam Nunc Venenatis','Massa Enim Laoreet'),
+(NULL,'Fames Leo Erat','Tristique Cubilia Nunc','','Torquent Facilisi Et','Faucibus Massa Nullam Molestie Duis Scelerisque Vitae Hac Sollicitudin Convallis Commodo Pretium Sodales Inceptos Congue Netus Pellentesque Posuere Aenean Dis Placerat Consectetur Turpis Quis Est Fusce Ipsum Ornare Dictum Mus Himenaeos Conubia Erat Felis Imperdiet Ligula','Conubia Adipiscing Sociis','Mattis Habitant Velit');
+
